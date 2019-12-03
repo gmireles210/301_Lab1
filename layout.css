@@ -14,7 +14,8 @@ div{
   div:nth-child(2){
     background-color: white;
     border: 2px black solid;
-    height: 120px;
+    height: 200px;
+    line-height: 200px;
     text-align: center;
   }
   
@@ -22,6 +23,7 @@ div{
     background-color: violet;
     border: 2px grey solid;
     height: 90px;
+    line-height: 90px;
     text-align: center;
   }
   
@@ -29,6 +31,7 @@ div{
     background-color: orange;
     border: 2px blue solid;  
     height: 200px;
+    line-height: 200px;
     text-align: center;
   }
   
@@ -72,6 +75,7 @@ div{
     background-color: #bae4bc;
     border: 2px #7bccc4 solid;
     height: 75px;
+    line-height: 75px;
     text-align: center;
   }
   
@@ -85,26 +89,30 @@ div{
     div:nth-child(2){
       width: 200px;
       height: 600px;
+      line-height: 600px;
     }
     
     div:nth-child(3){
       height: 200px;
+      line-height: 200px;
       width: 380px;
     }
     
     div:nth-child(4){
       height: 200px;
+      line-height: 200px;
       width: 380px;
     }
     
     div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
       width: 190px;
       height: 250px;
-      line-height: 240px;
+      line-height: 250px;
     }
     
     div:nth-child(9){
       height: 150px;
+      line-height: 150px;
       width: 760px;
     }
   

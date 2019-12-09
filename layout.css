@@ -1,119 +1,165 @@
+.flex-container {
+  /*SET DISPLAY FLEX ON CONTAINER*/ 
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
 div{
     float: left;
     text-align: center;
+    
   }
   
-  div:nth-child(1){
+   div:nth-child(1){
     background-color: #fdbe85;
     border: 2px #e6550d solid; 
     height: 100px;
     line-height: 100px;
     text-align: center;
+    
+    
   }
   
-  div:nth-child(2){
+   div:nth-child(2){
     background-color: white;
     border: 2px black solid;
     height: 200px;
     line-height: 200px;
     text-align: center;
+    
+    
+
   }
   
-  div:nth-child(3){
+   div:nth-child(3){
     background-color: violet;
     border: 2px grey solid;
     height: 90px;
     line-height: 90px;
     text-align: center;
+    
+    
   }
   
-  div:nth-child(4){
+   div:nth-child(4){
     background-color: orange;
     border: 2px blue solid;  
     height: 200px;
     line-height: 200px;
     text-align: center;
+    
+    
   }
   
-  div:nth-child(5){
+   div:nth-child(5){
     background-color: #cccccc;
     border: 2px #636363 solid; 
     width: 50%;
     height: 240px;
     line-height: 240px;
     text-align: center;
+    
+    
   }
 
-  div:nth-child(6){
+   div:nth-child(6){
     background-color: #bae4b3;
     border: 2px #74c476 solid; 
     width: 50%;
     height: 240px;
     line-height: 240px;
     text-align: center;
+    
+    
   }
 
-  div:nth-child(7){
+   div:nth-child(7){
     background-color: #d7b5d8;
     border: 2px #df65b0 solid; 
     width: 50%;
     height: 240px;
     line-height: 240px;
     text-align: center;
+    
+    
   }
 
-  div:nth-child(8){
+   div:nth-child(8){
     background-color: #bdd7e7;
     border: 2px #6baed6 solid; 
     width: 50%;
     height: 240px;
     line-height: 240px;
     text-align: center;
+    
+    
   }
   
-  div:nth-child(9){
+   div:nth-child(9){
     background-color: #bae4bc;
     border: 2px #7bccc4 solid;
     height: 75px;
     line-height: 75px;
     text-align: center;
+    
+    
   }
   
   @media (min-width:760px){
-    div:nth-child(1){
+     div:nth-child(1){
       width: 960px;
       height: 100px;
       line-height: 100px;
+      
+      
     }
     
-    div:nth-child(2){
+     div:nth-child(2){
       width: 200px;
       height: 600px;
       line-height: 600px;
+      
+      
     }
     
-    div:nth-child(3){
+     div:nth-child(3){
       height: 200px;
       line-height: 200px;
       width: 380px;
+      
+      
     }
     
-    div:nth-child(4){
+     div:nth-child(4){
       height: 200px;
       line-height: 200px;
       width: 380px;
+      
+      
     }
     
-    div:nth-child(5), div:nth-child(6), div:nth-child(7), div:nth-child(8){
+     div:nth-child(5),  div:nth-child(6),  div:nth-child(7),   div:nth-child(8){
       width: 190px;
       height: 250px;
       line-height: 250px;
+      
+      
     }
     
-    div:nth-child(9){
+     div:nth-child(9){
       height: 150px;
       line-height: 150px;
       width: 760px;
+      
+     
     }
   
     body {

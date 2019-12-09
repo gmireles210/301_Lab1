@@ -1,5 +1,4 @@
-.flex-container {
-  /*SET DISPLAY FLEX ON CONTAINER*/ 
+.flex-container { 
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
